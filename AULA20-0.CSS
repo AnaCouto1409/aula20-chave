@@ -4,7 +4,7 @@
     font-family: sans-serif;
     color: #000;
     box-sizing: border-box;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   a {
     text-decoration: none;
@@ -21,6 +21,11 @@
       'aside main'
       'footer footer'
     ;
+  }
+   #container{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
   }
   ul, ol {
     list-style: none;
@@ -58,7 +63,7 @@
   }
   body aside ul li a {
     text-transform: capitalize;
-    padding: 2rem 4rem;
+    padding: 1rem 2rem;
   }
   body aside ul li:hover a {
     color:#d700ff;
@@ -89,7 +94,7 @@
     text-align: left;
   }
   body font{
-      font-size: 7rem;
+      font-size: 8rem;
       text-align: center;
   }
   body footer {
